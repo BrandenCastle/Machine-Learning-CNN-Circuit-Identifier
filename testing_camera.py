@@ -3,6 +3,8 @@ import time
 
 model = load_model("My_Model_2.h5")
 
+vid = cv2.VideoCapture(0)
+
 #label your classes here. Make sure that the order of labels follows the order that the folders show up in your training set
 labels =  [ 'Class_1','Class_2','Class_3',...]
 image_count = 0
