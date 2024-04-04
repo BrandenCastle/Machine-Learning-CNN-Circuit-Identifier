@@ -42,5 +42,5 @@ while True:
     if c == 27:
         break
 
-cap.release()
+vid.release()
 cv2.destroyAllWindows()
